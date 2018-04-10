@@ -8,7 +8,7 @@ public static void main(String[] args){
        	Employee e = null;
    
 		
-		Date dt = new Date(22,10,2017);
+		Dateof dt = new Dateof(22,10,2017);
 		//out.println("Current date: "+ dt);
 		
 		                e = new Employee("Laveena","Agarwal","A",dt,25000);

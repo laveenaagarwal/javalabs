@@ -1,9 +1,9 @@
 import static java.lang.System.out;
-//import java.util.Date;
- class Date{
+import java.util.Date;
+ class Dateof{
 	int day,month,year;
 
-public Date(int day,int month,int year){
+public Dateof(int day,int month,int year){
 	this.day=day;
 	this.month=month;
 	this.year=year;
@@ -11,16 +11,18 @@ public Date(int day,int month,int year){
 class Employee
 {
 private String fnm,lnm,gr;
-Date d;
+Dateof d;
 private int sal;
 public static int count=0;
 public int id; 
 
-public Employee(String fnm,String lnm,String gr, Date d, int sal){
+public Employee(String fnm,String lnm,String gr,Dateof d,int sal){
 this.fnm=fnm;
 this.lnm=lnm;
 this.gr=gr;
-this.d=d; 
+Dateof dt;
+//this.d=dt; 
+
 this.sal=sal;
 id= ++count;
 }
