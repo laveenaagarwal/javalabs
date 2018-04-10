@@ -16,13 +16,13 @@ public static void main(String[] args){
 			            e.displayDetails();
 			            dt.displayDate();
 			            
-			            new Dateof(20,10,2017);
+			            dt = new Dateof(20,10,2017);
                         e = new Employee("niharika","Agarwal","A",dt,30000);
                     
                         e.displayDetails();
                         dt.displayDate();
                         
-                        new Dateof(19,10,2017);
+                        dt = new Dateof(19,10,2017);
                         e = new Employee("anita","Agarwal","A",dt,30000);
                         e.displayDetails();
                         dt.displayDate();
