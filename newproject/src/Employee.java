@@ -1,13 +1,5 @@
 import static java.lang.System.out;
 //import java.util.Date;
- class Dateof{
-	int day,month,year;
-
-public Dateof(int day,int month,int year){
-	this.day=day;
-	this.month=month;
-	this.year=year;
-}}
 class Employee
 {
 private String fnm,lnm,gr;
