@@ -1,12 +1,15 @@
 import static java.lang.System.out;
-import java.util.Date;
+
+//import date.Employee;
+
+//import java.util.Date;
 class abc{
 public static void main(String[] args){
        	Employee e = null;
    
 		
-		Date dt = new Date();
-		out.println("Current date: "+ dt);
+		Date dt = new Date(22,10,2017);
+		//out.println("Current date: "+ dt);
 		
 		                e = new Employee("Laveena","Agarwal","A",dt,25000);
 	             	//count=count+1;
