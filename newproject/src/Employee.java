@@ -1,5 +1,5 @@
 import static java.lang.System.out;
-import java.util.Date;
+//import java.util.Date;
  class Dateof{
 	int day,month,year;
 
@@ -11,18 +11,18 @@ public Dateof(int day,int month,int year){
 class Employee
 {
 private String fnm,lnm,gr;
-//Dateof d;
+Dateof d;
 private int sal;
 public static int count=0;
 public int id;
-private Object d; 
+//private Object d; 
 
 public Employee(String fnm,String lnm,String gr,Dateof d,int sal){
 this.fnm=fnm;
 this.lnm=lnm;
 this.gr=gr;
-Dateof dt;
-//this.d=d; 
+//Dateof dt;
+this.d=d; 
 
 this.sal=sal;
 id= ++count;
