@@ -24,10 +24,7 @@ public void displayDetails()
 	System.out.print("\tfirstName: "+ fnm);
 		System.out.println("\tlastname: "+ lnm);
 		System.out.print("grade: "+ gr);
-		//System.out.println("\tjoinmonth: "+ d.getDay() );
-		System.out.print("joining month: "+ d.getDay() +"."+ d.getMonth()  +"."+ d.getYear());
-		//System.out.print("\tjoinmonth: "+ d.getMonth());
-		//System.out.print("\tjoinmonth: "+ d.getYear());
+		//System.out.println("\tjoinmonth: "+ d );
 		System.out.print("salary: "+ sal);
 		System.out.print("\tdisplay id"+ id);
 		
