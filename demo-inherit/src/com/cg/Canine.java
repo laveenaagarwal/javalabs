@@ -5,10 +5,10 @@ public Canine()
 {
 	super("Grey",1);
  }
-public void roam(){
-	System.out.print("msg roam");
-}
+//public void roam(){
+	//System.out.print("msg roam");
+//}
 public void eat(){
-	System.out.print("msg roam");
+	System.out.print("msg eat");
 }
 }

@@ -11,7 +11,7 @@ abstract public class Animal {
 		this.age = age;
 	}
 	abstract public void eat();
-	abstract public void roam();
+	//abstract public void roam();
 	
 
 }

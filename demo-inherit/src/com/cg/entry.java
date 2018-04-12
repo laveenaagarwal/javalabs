@@ -8,7 +8,7 @@ public class entry {
 		//anref= new Animal("white",30);
 		anref = new Dog();
 		anref.eat();
-		anref.roam();
+		//anref.roam();
 	}
 
 }
