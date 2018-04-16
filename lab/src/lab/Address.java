@@ -16,9 +16,9 @@ public void setCountry(Country country) {
 	this.country = country;
 }
  
-public Address(String line,Country country){
-	this.line = line;
-	this.country = country;
-	}
+//public Address(String line,Country country){
+	//this.line = line;
+	//this.country = country;
+	//}
 
 }

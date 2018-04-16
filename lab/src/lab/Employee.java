@@ -17,10 +17,10 @@ public class Employee {
 		this.address = address;
 	}
 	
-	public Employee(String name,Address address){
-		this.name = name;
-		this.address = address;
-		}
+	//public Employee(String name,Address address){
+		//this.name = name;
+		//this.address = address;
+		//}
 
 	
  		

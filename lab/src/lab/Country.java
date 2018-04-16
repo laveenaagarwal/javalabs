@@ -15,10 +15,10 @@ public City getCity() {
 public void setCity(City city) {
 	this.city = city;
 }
-public Country(String name,City city){
-this.name = name;
-this.city = city;
+//public Country(String name,City city){
+//this.name = name;
+//this.city = city;
 
-}
+//}
 
 }

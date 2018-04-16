@@ -11,9 +11,9 @@ public void setName(String name) {
 	this.name = name;
 }
 
-public City(String name){
-	this.name = name;
+//public City(String name){
+	//this.name = name;
 	
-}
+//}
 
 }
