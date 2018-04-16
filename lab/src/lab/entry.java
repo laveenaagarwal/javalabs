@@ -1,7 +1,7 @@
 package lab;
 
 public class entry {
-	Employee e = null;
+	 static Employee e = null;
      public void displayDetails()
      {
     	
@@ -16,8 +16,8 @@ public class entry {
  		//System.out.print("\tdisplay id"+ id);
     	 
      }
-	public void main(String args[])
-	{
+     public static void main(String[] args){
+	
 		//Employee e = null;
 		City c = new City ("Jaipur");
 		Country co = new Country("INDIA",c);
